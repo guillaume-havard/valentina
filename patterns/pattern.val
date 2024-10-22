@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pattern labelPrefix="en">
+    <!--Pattern created with Valentina v0.7.53.none (https://smart-pattern.com.ua/).-->
+    <version>0.9.6</version>
+    <unit>cm</unit>
+    <description/>
+    <notes/>
+    <measurements path="../measures/austen_jane.vit"/>
+    <increments/>
+    <previewCalculations/>
+    <draw name="back">
+        <calculation>
+            <point id="1" mx="0.264583" my="0.396875" name="A" showLabel="true" type="single" x="0.79375" y="1.05833"/>
+            <point angle="0" basePoint="1" id="2" length="waist_adjusted" lineColor="black" mx="0.264583" my="0.396875" name="A1" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="270" basePoint="1" id="3" length="dist_waist_hip" lineColor="black" mx="0.264583" my="0.396875" name="A2" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="270" basePoint="1" id="4" length="crotch_depth" lineColor="black" mx="0.264583" my="0.396875" name="A3" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="270" basePoint="1" id="5" length="tip_down_back" lineColor="black" mx="0.264583" my="0.396875" name="A4" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="0" basePoint="3" id="6" length="hip_adjusted" lineColor="black" mx="0.264583" my="0.396875" name="A5" showLabel="true" type="endLine" typeLine="hair"/>
+        </calculation>
+        <modeling/>
+        <details/>
+        <groups/>
+    </draw>
+</pattern>

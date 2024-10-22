@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vit>
+    <!--Measurements created with Valentina v0.7.53.none (https://smart-pattern.com.ua/).-->
+    <version>0.6.1</version>
+    <read-only>false</read-only>
+    <notes/>
+    <unit>cm</unit>
+    <pm_system>{341e5eaa-3151-48f4-a1a4-aa7e19d337e9}</pm_system>
+    <personal>
+        <customer/>
+        <birth-date>1800-01-01</birth-date>
+        <gender>unknown</gender>
+        <email/>
+    </personal>
+    <body-measurements>
+        <m name="waist" value="91.5"/>
+        <m name="hip" value="101.5"/>
+        <m name="dist_waist_hip" value="17.8"/>
+        <m name="crotch_depth" value="30.5"/>
+        <m name="crotch_length" value="66"/>
+        <m name="reduction_factor" value="0.9"/>
+        <m name="waist_adjusted" value="(waist*reduction_factor)/4&#10;"/>
+        <m name="hip_adjusted" value="(hip*reduction_factor)/4"/>
+        <m name="hip_to_crotch" value="crotch_depth - dist_waist_hip"/>
+        <m name="front_crotch_width" value="3"/>
+        <m name="back_crotch_width" value="6"/>
+        <m name="back_crotch_extension" value="3.5"/>
+        <m name="gusset_length" value="(crotch_length - (crotch_depth * 2) -  3.5) * 0.9"/>
+        <m name="tip_down_front" value="1.9"/>
+        <m name="tip_down_back" value="1.25&#10;"/>
+    </body-measurements>
+</vit>

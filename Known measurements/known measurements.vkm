@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<known-measurements uid="{341e5eaa-3151-48f4-a1a4-aa7e19d337e9}" version="1.0.0">
+    <!--Known measurements created with Valentina v0.7.53.none (https://smart-pattern.com.ua/).-->
+    <info>
+        <name>Guillaume Havard</name>
+        <description/>
+    </info>
+    <diagrams/>
+    <measurements>
+        <m name="waist"/>
+        <m full_name="" group="" name="hip"/>
+        <m name="dist_waist_hip"/>
+        <m description="assis, distance entre la taille et la chaise" full_name="" name="crotch_depth"/>
+        <m description="sur la ligne de la taille entre devant et derrière en passant par l'entrejambe" full_name="" name="crotch_length"/>
+        <m description="facteur de reduction du tissu&#10;&#10;strech tissu in % -&gt; reduction factor&#10;30% -&gt; 0.9&#10;40% -&gt; 0.8 (defaut)&#10;60% -&gt; 0.7&#10;75% -&gt; 0.65&#10;100% -&gt; 0.5" full_name="" group="" name="reduction_factor"/>
+        <m formula="(waist*reduction_factor)/4&#10;" full_name="" group="" name="waist_adjusted"/>
+        <m formula="(hip*reduction_factor)/4" full_name="" group="" name="hip_adjusted"/>
+        <m formula="crotch_depth - dist_waist_hip" name="hip_to_crotch"/>
+        <m formula="3" full_name="" name="front_crotch_width"/>
+        <m formula="6" full_name="" name="back_crotch_width"/>
+        <m formula="3.5" full_name="" name="back_crotch_extension"/>
+        <m formula="(crotch_length - (crotch_depth * 2) -  3.5) * 0.9" full_name="" name="gusset_length"/>
+        <m formula="1.9" name="tip_down_front"/>
+        <m formula="1.25&#10;" full_name="" group="" name="tip_down_back"/>
+    </measurements>
+</known-measurements>
