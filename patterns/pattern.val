@@ -16,6 +16,44 @@
             <point angle="270" basePoint="1" id="4" length="crotch_depth" lineColor="black" mx="0.264583" my="0.396875" name="A3" showLabel="true" type="endLine" typeLine="hair"/>
             <point angle="270" basePoint="1" id="5" length="tip_down_back" lineColor="black" mx="0.264583" my="0.396875" name="A4" showLabel="true" type="endLine" typeLine="hair"/>
             <point angle="0" basePoint="3" id="6" length="hip_adjusted" lineColor="black" mx="0.264583" my="0.396875" name="A5" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="270" basePoint="4" id="7" length="back_crotch_extension" lineColor="black" mx="0.264583" my="0.396875" name="A6" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="0" basePoint="7" id="8" length="back_crotch_width" lineColor="black" mx="0.264583" my="0.396875" name="A7" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="270" basePoint="8" id="9" length="1.25" lineColor="black" mx="0.264583" my="0.396875" name="A8" showLabel="true" type="endLine" typeLine="hair"/>
+            <line firstPoint="2" id="15" lineColor="black" secondPoint="6" typeLine="hair"/>
+            <line firstPoint="9" id="16" lineColor="black" secondPoint="6" typeLine="hair"/>
+            <spline aScale="0" angle1="150" angle2="0" color="black" id="20" length1="1" length2="4" penStyle="hair" point1="9" point4="7" type="simpleInteractive"/>
+            <spline aScale="0" angle1="0" angle2="0" color="black" id="21" length1="10" length2="0" penStyle="hair" point1="5" point4="2" type="simpleInteractive"/>
+        </calculation>
+        <modeling/>
+        <details/>
+        <groups/>
+    </draw>
+    <draw name="front">
+        <calculation>
+            <point id="10" mx="0.264583" my="0.396875" name="B" showLabel="true" type="single" x="45.8485" y="1.05833"/>
+            <point angle="180" basePoint="10" id="11" length="waist_adjusted" lineColor="black" mx="0.264583" my="0.396875" name="B1" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="270" basePoint="10" id="12" length="dist_waist_hip" lineColor="black" mx="0.264583" my="0.396875" name="B2" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="270" basePoint="10" id="13" length="crotch_depth" lineColor="black" mx="0.264583" my="0.396875" name="B3" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="180" basePoint="12" id="14" length="hip_adjusted" lineColor="black" mx="0.264583" my="0.396875" name="B4" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="270" basePoint="10" id="17" length="tip_down_front" lineColor="black" mx="0.264583" my="0.396875" name="B5" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="180" basePoint="13" id="18" length="front_crotch_width" lineColor="black" mx="0.264583" my="0.396875" name="B6" showLabel="true" type="endLine" typeLine="hair"/>
+            <line firstPoint="11" id="19" lineColor="black" secondPoint="14" typeLine="hair"/>
+            <spline aScale="0" angle1="0" angle2="180" color="black" id="22" length1="0" length2="10" penStyle="hair" point1="11" point4="17" type="simpleInteractive"/>
+            <spline aScale="0" angle1="90" angle2="45" color="black" id="23" length1="10" length2="10" penStyle="hair" point1="18" point4="14" type="simpleInteractive"/>
+        </calculation>
+        <modeling/>
+        <details/>
+        <groups/>
+    </draw>
+    <draw name="gusset">
+        <calculation>
+            <point id="24" mx="0.264583" my="0.396875" name="C" showLabel="true" type="single" x="24.5101" y="23.3462"/>
+            <point angle="270" basePoint="24" id="25" length="gusset_length" lineColor="black" mx="0.264583" my="0.396875" name="C1" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="0" basePoint="24" id="26" length="back_crotch_width" lineColor="black" mx="0.264583" my="0.396875" name="C2" showLabel="true" type="endLine" typeLine="hair"/>
+            <point angle="270" basePoint="26" id="27" length="1.25" lineColor="black" mx="0.264583" my="0.396875" name="C3" showLabel="true" type="endLine" typeLine="hair"/>
+            <spline aScale="0" angle1="0" angle2="150" color="black" id="28" length1="4" length2="1" penStyle="hair" point1="24" point4="27" type="simpleInteractive"/>
+            <point angle="0" basePoint="25" id="29" length="front_crotch_width" lineColor="black" mx="0.264583" my="0.396875" name="C4" showLabel="true" type="endLine" typeLine="hair"/>
+            <spline aScale="0" angle1="224.653" angle2="90" color="black" id="30" length1="3.77195" length2="2" penStyle="hair" point1="27" point4="29" type="simpleInteractive"/>
         </calculation>
         <modeling/>
         <details/>
