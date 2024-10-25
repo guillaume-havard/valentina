@@ -24,8 +24,32 @@
             <spline aScale="0" angle1="150" angle2="0" color="black" id="20" length1="1" length2="4" penStyle="hair" point1="9" point4="7" type="simpleInteractive"/>
             <spline aScale="0" angle1="0" angle2="0" color="black" id="21" length1="10" length2="0" penStyle="hair" point1="5" point4="2" type="simpleInteractive"/>
         </calculation>
-        <modeling/>
-        <details/>
+        <modeling>
+            <point id="31" idObject="5" inUse="true" mx="0.264583" my="0.396875" showLabel="true" type="modeling"/>
+            <spline id="32" idObject="21" inUse="true" type="modelingSpline"/>
+            <point id="33" idObject="2" inUse="true" mx="0.264583" my="0.396875" showLabel="true" type="modeling"/>
+            <point id="34" idObject="6" inUse="true" mx="0.264583" my="0.396875" showLabel="true" type="modeling"/>
+            <point id="35" idObject="9" inUse="true" mx="0.264583" my="0.396875" showLabel="true" type="modeling"/>
+            <spline id="36" idObject="20" inUse="true" type="modelingSpline"/>
+            <point id="37" idObject="7" inUse="true" mx="0.264583" my="0.396875" showLabel="true" type="modeling"/>
+        </modeling>
+        <details>
+            <detail followGrainline="false" forbidFlipping="false" forceFlipping="false" hideMainPath="false" id="38" mx="0" my="0" name="back" seamAllowance="true" sewLineOnDrawing="false" uuid="{3818ca5b-d982-472b-87ba-a89feb516fdd}" version="2" width="1">
+                <data annotation="" foldPosition="" height="10" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="10"/>
+                <patternInfo height="10" mx="0" my="0" rotation="0" visible="false" width="10"/>
+                <grainline arrows="0" enabled="false" length="10" mx="0" my="0" rotation="90" visible="true"/>
+                <nodes>
+                    <node before="0" idObject="31" type="NodePoint"/>
+                    <node idObject="32" reverse="0" type="NodeSpline"/>
+                    <node idObject="33" type="NodePoint"/>
+                    <node idObject="34" type="NodePoint"/>
+                    <node idObject="35" type="NodePoint"/>
+                    <node idObject="36" reverse="0" type="NodeSpline"/>
+                    <node after="0" idObject="37" type="NodePoint"/>
+                </nodes>
+                <mirrorLine label="fold" type="2ArrowsTextAbove"/>
+            </detail>
+        </details>
         <groups/>
     </draw>
     <draw name="front">
@@ -41,8 +65,32 @@
             <spline aScale="0" angle1="0" angle2="180" color="black" id="22" length1="0" length2="10" penStyle="hair" point1="11" point4="17" type="simpleInteractive"/>
             <spline aScale="0" angle1="90" angle2="45" color="black" id="23" length1="10" length2="10" penStyle="hair" point1="18" point4="14" type="simpleInteractive"/>
         </calculation>
-        <modeling/>
-        <details/>
+        <modeling>
+            <point id="39" idObject="11" inUse="true" mx="0.264583" my="0.396875" showLabel="true" type="modeling"/>
+            <spline id="40" idObject="22" inUse="true" type="modelingSpline"/>
+            <point id="41" idObject="17" inUse="true" mx="0.264583" my="0.396875" showLabel="true" type="modeling"/>
+            <point id="42" idObject="13" inUse="true" mx="0.264583" my="0.396875" showLabel="true" type="modeling"/>
+            <point id="43" idObject="18" inUse="true" mx="0.264583" my="0.396875" showLabel="true" type="modeling"/>
+            <spline id="44" idObject="23" inUse="true" type="modelingSpline"/>
+            <point id="45" idObject="14" inUse="true" mx="0.264583" my="0.396875" showLabel="true" type="modeling"/>
+        </modeling>
+        <details>
+            <detail followGrainline="false" forbidFlipping="false" forceFlipping="false" hideMainPath="false" id="46" mx="0" my="0" name="front" seamAllowance="true" sewLineOnDrawing="false" uuid="{801caafd-7f02-4e7a-b612-a89e9d4057b1}" version="2" width="1">
+                <data annotation="" foldPosition="" height="10" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="10"/>
+                <patternInfo height="10" mx="0" my="0" rotation="0" visible="false" width="10"/>
+                <grainline arrows="0" enabled="false" length="10" mx="0" my="0" rotation="90" visible="true"/>
+                <nodes>
+                    <node idObject="39" type="NodePoint"/>
+                    <node idObject="40" reverse="0" type="NodeSpline"/>
+                    <node after="0" idObject="41" type="NodePoint"/>
+                    <node before="0" idObject="42" type="NodePoint"/>
+                    <node idObject="43" type="NodePoint"/>
+                    <node idObject="44" reverse="0" type="NodeSpline"/>
+                    <node idObject="45" type="NodePoint"/>
+                </nodes>
+                <mirrorLine type="2ArrowsTextAbove"/>
+            </detail>
+        </details>
         <groups/>
     </draw>
     <draw name="gusset">
@@ -55,8 +103,30 @@
             <point angle="0" basePoint="25" id="29" length="front_crotch_width" lineColor="black" mx="0.264583" my="0.396875" name="C4" showLabel="true" type="endLine" typeLine="hair"/>
             <spline aScale="0" angle1="224.653" angle2="90" color="black" id="30" length1="3.77195" length2="2" penStyle="hair" point1="27" point4="29" type="simpleInteractive"/>
         </calculation>
-        <modeling/>
-        <details/>
+        <modeling>
+            <point id="47" idObject="24" inUse="true" mx="0.264583" my="0.396875" showLabel="true" type="modeling"/>
+            <spline id="48" idObject="28" inUse="true" type="modelingSpline"/>
+            <point id="49" idObject="27" inUse="true" mx="0.264583" my="0.396875" showLabel="true" type="modeling"/>
+            <spline id="50" idObject="30" inUse="true" type="modelingSpline"/>
+            <point id="51" idObject="29" inUse="true" mx="0.264583" my="0.396875" showLabel="true" type="modeling"/>
+            <point id="52" idObject="25" inUse="true" mx="0.264583" my="0.396875" showLabel="true" type="modeling"/>
+        </modeling>
+        <details>
+            <detail followGrainline="false" forbidFlipping="false" forceFlipping="false" hideMainPath="false" id="53" mx="0" my="0" name="gusset" seamAllowance="true" sewLineOnDrawing="false" uuid="{aca06733-5f91-4e0a-bf08-abddc2299104}" version="2" width="1">
+                <data annotation="" foldPosition="" height="10" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="10"/>
+                <patternInfo height="10" mx="0" my="0" rotation="0" visible="false" width="10"/>
+                <grainline arrows="0" enabled="false" length="10" mx="0" my="0" rotation="90" visible="true"/>
+                <nodes>
+                    <node before="0" idObject="47" type="NodePoint"/>
+                    <node idObject="48" reverse="0" type="NodeSpline"/>
+                    <node idObject="49" type="NodePoint"/>
+                    <node idObject="50" reverse="0" type="NodeSpline"/>
+                    <node idObject="51" type="NodePoint"/>
+                    <node after="0" idObject="52" type="NodePoint"/>
+                </nodes>
+                <mirrorLine p1="47" p2="52" type="2ArrowsTextAbove" visible="false"/>
+            </detail>
+        </details>
         <groups/>
     </draw>
 </pattern>
